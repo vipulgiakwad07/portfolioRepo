@@ -3,7 +3,7 @@ var router = express.Router();
 var mongoose = require("mongoose");
 
 var Skills = require("./skills_schema");
-mongoose.connect(`mongodb+srv://vipul:vipulsportfolio@cluster0.3v2rv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://vipul:vipulsportfolio@cluster0.3v2rv.mongodb.net/portfolio?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
